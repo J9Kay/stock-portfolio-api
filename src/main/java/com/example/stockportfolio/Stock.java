@@ -53,5 +53,4 @@ public class Stock {
         this.purchasePrice = purchasePrice;
     }
 
-    // Methods to calculate performance metrics can be added here
 }
