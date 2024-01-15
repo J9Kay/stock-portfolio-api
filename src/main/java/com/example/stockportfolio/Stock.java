@@ -8,6 +8,16 @@ public class Stock {
     private int quantity;  // Number of shares owned
     private double purchasePrice;  // Average purchase price
 
+    //constructor for generating a stock
+    public Stock(String ticker, String name, String currencySymbol, double price, int quantity, double purchasePrice) {
+        this.ticker = ticker;
+        this.name = name;
+        this.currencySymbol = currencySymbol;
+        this.price = price;
+        this.quantity = quantity;
+        this.purchasePrice = purchasePrice;
+    }
+
     // Constructor for immutable fields
     public Stock(String ticker, String name, String currencySymbol) {
         this.ticker = ticker;
